@@ -295,10 +295,10 @@ for add and remove from cart:
 # optional
 to make count icon for items in cart:
 
-make folder ' templatetags ' 
+make folder ' templatetags ' in your app 
 then ' cart_template_tag '
 
-inside the file put this codel:
+inside the file put this code:
 
 ```python
 from django import template
