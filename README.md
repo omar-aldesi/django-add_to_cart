@@ -21,7 +21,6 @@ class Item(models.Model):
     description = models.TextField()
     image = models.ImageField(upload_to='images')
     category = models.ForeignKey(Category, on_delete=models.CASCADE,null=True)
-    label = models.CharField(choices=LABEL_CHOICES, max_length=1,default='P')
     # slug important
     slug = models.SlugField(unique=True,null=True)
   
